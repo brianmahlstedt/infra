@@ -5,7 +5,7 @@ on a single digitalocean droplet.
 You should only need to do the following once:
 ```bash
 docker network create nginx-proxy
-docker-compose up
+docker-compose up -d --build
 ```
 
 The you can bring up any other containers running services
